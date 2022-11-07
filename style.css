@@ -1,0 +1,150 @@
+@charset "UTF-8"
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:576px) {
+    .container {
+        max-width: 540px;
+        padding: 0px;
+    }
+
+    header .container nav {
+        display: block;
+    }
+
+    section.hi {
+        background-image: url(img/fundo.png);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+header img.logo {
+    max-width: 60px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+section.hi {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section.hi .container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+section.hi .hi-content h1 {
+    font-size: 5em;
+    margin: 0px;
+}
+
+section.hi .hi-content h3 {
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #424245;
+}
+
+section.hi .hi-content button {
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+section.hi .hi-content button a {
+    text-decoration: none;
+}
+
+section.hi .hi-content .button1 {
+    background-color: #075FE4;
+    border: none;
+    color: white;
+    margin-right: 30px;
+}
+
+section.hi .hi-content .button1 a {
+    color: white;
+}
+
+section.hi .hi-content .button2 {
+    background-color: white;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}
+
+section.hi .hi-content .button2 a {
+    color: rgb(0, 0, 0);
+}
+
+
+
+section.hi .hi-content .button1:hover {
+    background-color: #0655ca;
+}
+
+section.hi .hi-content .button2:hover {
+    background-color: #000000;
+}
+
+section.hi .hi-content .button2 a:hover {
+    color: white;
+}
