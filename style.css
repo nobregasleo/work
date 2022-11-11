@@ -51,6 +51,9 @@ header {
         display: none;
     }
     
+    section.hi .container .botoes {
+        justify-content: left;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -129,6 +132,13 @@ section.hi .hi-content button {
     padding: 20px;
     cursor: pointer;
 }
+
+section.hi .botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 section.hi .hi-content button a {
     text-decoration: none;
